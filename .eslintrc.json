@@ -108,7 +108,10 @@
           "serializable",
           "persistor",
           "Perf",
-          "svg"
+          "svg",
+          "memusic",
+          "linkedin",
+          "noreferrer"
         ],
         "strings": true,
         "templates": true

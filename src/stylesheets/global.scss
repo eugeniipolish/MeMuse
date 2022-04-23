@@ -1,3 +1,21 @@
+@import "./const";
+
+@font-face {
+    font-family: "Nexa";
+    src:   url("/fonts/Nexa/NexaRegular.woff") format("woff"),
+           url("/fonts/Nexa/NexaRegular.ttf") format("ttf"),
+           url("/fonts/Nexa/NexaRegular.eot") format("eot");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Nexa";
+    color: $color-main;
+    font-size: $fontSize-basic;
+    line-height: 28px;
+}
+
 .container {
     max-width: 1230px;
     padding: 0 15px;
@@ -13,7 +31,27 @@ ul {
     list-style: none;
 }
 
-li {
+ul, li {
     padding: 0;
     margin: 0;
+    color: $color-main;
+}
+
+a {
+    text-decoration: none;
+    color: $color-main;
+}
+
+.btn_without_styles {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
