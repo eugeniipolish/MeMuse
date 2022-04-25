@@ -1,0 +1,50 @@
+@import "../../stylesheets/const.scss";
+
+.wrapper {
+    position: relative;
+    z-index: 3;
+    background-image: url("../../../public/Landing-page/top-section/bg-img.png");
+    background-repeat: no-repeat;
+    background-position: left calc(50% + 135px) top 0px;
+
+    .bottom {
+        padding-top: 81px;
+    }
+}
+
+
+.box {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+
+    .left_side {
+        .header {
+            width: 627px;
+            letter-spacing: -0.02em;
+            font-feature-settings: 'ss02' on;
+            text-shadow: $box-shadow-color-h3;
+        }
+    
+        .text {
+            width: 568px;
+            margin-top: 34px;
+            line-height: 28px;
+            letter-spacing: 0.01em;
+            opacity: 0.7;
+        }
+    
+        .buttons {
+            width: 504px;
+            margin-top: 57px;
+            display: flex;
+            justify-content: space-between;
+
+            .button_wrapper {
+                width: 240px;
+            }
+        }
+    } 
+}

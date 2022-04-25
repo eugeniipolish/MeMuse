@@ -1,11 +1,11 @@
 import "normalize.css";
-import React from "react";
+import React, { FC } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { AppRouter } from "./pages/AppRouter";
 import { ErrorBoundary } from "./pages/ErrorBoundary";
 import "./stylesheets/global.scss";
 
-function App() {
+const App: FC = () => {
   return (
     <ErrorBoundary>
       <BrowserRouter>
@@ -13,6 +13,6 @@ function App() {
       </BrowserRouter>
     </ErrorBoundary>
   );
-}
+};
 
 export default App;

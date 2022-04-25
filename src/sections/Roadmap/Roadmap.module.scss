@@ -1,0 +1,17 @@
+@import "../../stylesheets/const.scss";
+
+.roadmap {
+    padding: 50px 0px 104px;
+}
+
+.header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 86px 20px;
+}
+

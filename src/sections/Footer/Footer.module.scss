@@ -1,0 +1,37 @@
+@import "../../stylesheets/const";
+
+.footer {
+    padding: 64px 0px 54px;
+    background: $bg-gradient-blue;
+}
+
+.top {
+    margin-bottom: 54px;
+
+    .buttons {
+        width: 424px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn_wrapper {
+        width: 200px;
+    }
+}
+
+.list {
+    display: flex;
+
+    .item {
+        padding: 0px 12px;
+        color: $color-main-translucent;
+        
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+}

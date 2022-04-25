@@ -1,0 +1,49 @@
+@import "../../stylesheets/_const.scss";
+
+.btn {
+    width: 220px;
+    height: 56px;
+    font-size: $fontSize-btn;
+    line-height: $line-height-btn;
+    cursor: pointer;
+}
+
+.btn.full_width {
+    width: 100%;
+}
+
+.btn.primary {
+    background: $bg-theme-primary;
+    box-shadow: 0px 4px 16px $box-shadow-color-btn-primary;
+    border-radius: 16px;
+
+    &:hover {
+        background: $bg-theme-primary-hover;
+        box-shadow: 0px 4px 16px $box-shadow-color-btn-primary-hover;
+    }
+
+    &:disabled {
+        background: $bg-theme-primary-disabled;
+        backdrop-filter: blur(30px);
+        border-radius: 16px;
+    }
+}
+
+.btn.secondary {
+    background: $bg-theme-secondary;
+    backdrop-filter: blur(30px);
+    border-radius: 16px;
+
+    &:hover {
+        background: $bg-theme-secondary-hover;
+        border: 2px solid $border-color-btn-secondary;
+        backdrop-filter: blur(30px);
+        border-radius: 16px;
+    }
+
+    &:disabled {
+        background: $bg-theme-primary-disabled;
+        backdrop-filter: blur(30px);
+        border-radius: 16px;
+    }
+}

@@ -1,0 +1,22 @@
+@import "../../../stylesheets/_const.scss";
+
+.wrapper {
+    padding-top: 54px;
+    position: relative;
+    z-index: 2;
+
+    .section_header {
+        margin-bottom: 15px;
+    }
+
+    .section_text {
+        color: $color-grey-50;
+    }
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 44px;
+    margin-top: 46px;
+}

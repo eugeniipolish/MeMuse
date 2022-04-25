@@ -1,0 +1,40 @@
+@import "../../../stylesheets/const.scss";
+
+.card {
+    padding: 20px 16px;
+    height: 160px;
+
+    &.green {
+        background: $bg-gradient-card-green;
+        border-top: 4px solid $color-green-50;
+    }
+
+    &.blue {
+        background: $bg-gradient-card-blue;
+        border-top: 4px solid $color-blue-50;
+    }
+
+    .caption {
+        letter-spacing: 0.02em;
+    }
+
+    .content {
+        color: $color-main-translucent;
+        padding: 4px 0;
+
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 14px;
+    }
+}

@@ -3,4 +3,47 @@
 .wrapper {
     background-color: $bg-home;
     min-height: 100vh;
+    position: relative;
+    z-index: 3;
+    overflow-x: hidden;
 }
+
+.green_gradient {
+    position: absolute;
+    width: 1836px;
+    height: 1111px;
+    z-index: 1;
+    left: calc(50% - 1836px/2 - 881px);
+    background: $bg-green-gradient;
+    pointer-events: none;
+}
+
+.green_gradient.top {
+    top: 808px;
+}
+
+.green_gradient.bottom {
+    top: 5842px;
+}
+
+.blue_gradient {
+    position: absolute;
+    z-index: 1;
+    width: 1836px;
+    height: 933px;
+    left: calc(50% - 1836px/2 + 858px);
+    
+    background: $bg-blue-gradient;
+    pointer-events: none;
+}
+
+.blue_gradient.top {
+    top: 1743px;
+}
+
+.blue_gradient.bottom {
+    top: 5600px;
+}
+
+
+

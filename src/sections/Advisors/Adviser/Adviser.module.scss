@@ -1,0 +1,25 @@
+@import "../../../stylesheets/const.scss";
+
+.adviser {
+    width: 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .name {
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .img {
+        width: 127px;
+        height: 160px;
+        background: $color-grey;
+        box-shadow: $box-shadow-color-photo;
+        border-radius: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+

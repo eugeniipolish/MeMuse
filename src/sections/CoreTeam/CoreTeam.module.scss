@@ -1,0 +1,20 @@
+@import "../../stylesheets/const.scss";
+
+.core_team {
+    padding: 54px 0 11px;
+
+    .header{
+        margin-bottom: 42px;
+        text-align: center;
+    }
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 42px;
+    grid-row-gap: 17px;
+}
+
+
+

@@ -1,0 +1,26 @@
+@import "../../stylesheets/const.scss";
+
+.input {
+    width: 220px;
+    height: 56px;
+    background: $bg-theme-secondary;
+    border: 2px solid transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 16px;
+    padding: 14px 16px;
+    outline: none;
+    color: $color-main;
+
+    &:hover {
+        background: $bg-theme-secondary-hover;
+    }
+
+    &:focus {
+        background: $bg-theme-secondary;
+        border: 2px solid $border-color-btn-secondary;
+    }
+}
+
+.input.full_width {
+    width: 100%;
+}

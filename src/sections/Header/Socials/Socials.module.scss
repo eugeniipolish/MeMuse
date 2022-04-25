@@ -1,0 +1,16 @@
+.social {
+    margin: 0 13px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &_link {
+        width: 24px;
+        height: 24px;
+    }
+}

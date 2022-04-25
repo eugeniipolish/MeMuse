@@ -1,0 +1,45 @@
+@import "../../../stylesheets/const.scss";
+
+.employee {
+    display: flex;
+
+    &_img {
+        display: block;
+        background: $color-grey;
+        box-shadow: $box-shadow-color-photo;
+        border-radius: 200px;
+        margin-right: 24px;
+        width: 127px;
+        height: 160px;
+    }
+
+    &_info {
+       &_position {
+           color: $color-green-40;
+       }
+    }
+}
+
+.list {
+    list-style: inside;
+    list-style-position: outside;
+    margin-top: 14px;
+    padding-left: 24px;
+
+    ::marker {
+        color: $color-grey-60;
+    }
+
+    &_item {
+        color: $color-grey-60;
+        padding: 2px 0;
+
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.NFT {
+    padding-top: 80px;
+    position: relative;
+    z-index: 2;
+}
+
+.title_section {
+    position: relative;
+    z-index: 2;
+    padding: 16px 0px 24px;
+    margin-bottom: 80px;
+
+    .NTF_img {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+    }
+}
+
+.wrapper{
+    padding-top: 16px;
+
+    .img {
+        display: block;
+    }
+}
+
+
+

@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    position: relative;
+    z-index: 3;
+
+    &:first-child, &:last-child {
+        padding: 0;
+    }
+
+    &.row {
+        flex-direction: row;
+    }
+
+    &.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .text {
+        max-width: 584px;
+    }
+    
+    .img {
+        display: block;
+        border-radius: 12px;
+    }
+}
